@@ -1,7 +1,8 @@
 #!/bin/bash
 
-LOGFILE="/var/log/ram_usage.log"
-INTERVAL=10  # Intervall in Sekunden
+DATE=$(date +"%Y-%m-%d")
+LOGFILE="/var/log/ram_usage-$DATE.log"
+INTERVAL=5  # Intervall in Sekunden
 
 echo "Start RAM usage monitoring at $(date)" >> $LOGFILE
 
