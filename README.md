@@ -50,7 +50,8 @@ Auslager:      18898        1356       17541
 2024-06-19 21:17:49 -                gesamt       benutzt     frei      gemns.  Puffer/Cache verfügbar
 Speicher:      14803        5745        1065          75        7992        7961
 Auslager:      18898        1352       17545
-...
+```
+
 
 ## Python Analyzer: `analyze_ram_log.py`
 
